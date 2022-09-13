@@ -1,0 +1,63 @@
+import java.util.Scanner;
+import java.util.*;
+
+
+
+public class Passwordcode {
+
+    public static void main(String[] args){
+
+
+        System.out.print("Enter a fruit for my opinion, if you don't know any fruits I don't know how to help you: ");
+        Scanner keyboard = new Scanner(System.in);
+        String input = keyboard.nextLine();
+
+        // if statements: Checks to see IF an input matches the criteria. ELSE to does not
+        // the computer will check in this order: If -> else if -> else. You can have as many else ids
+        // as you need. However there can only be one if and one else in your statement
+
+        if (input.equals("apples")){
+
+            System.out.println("green apples > red apples");
+
+
+        }
+
+        else if (input.equals("oranges")){
+            System.out.println("who raised you, apple juice > orange juice");
+
+        }
+
+        else if (input.equals("bananas")){
+            System.out.println("good potassium");
+
+            
+        }
+
+        else if (input.equals("watermelon")){
+            System.out.println("watermelon is gas");
+
+            
+        }
+        
+
+
+        else{
+            System.out.println("No fruit? weird");
+
+        }
+    
+
+
+
+    }
+    
+  
+
+
+
+
+
+
+
+}
